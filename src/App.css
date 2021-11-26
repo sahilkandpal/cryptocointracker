@@ -51,10 +51,10 @@ a:hover {
   width: 100%;
 }
 .logo {
-  margin: 0 0 0 15px;
+  margin: 0 0 0 15px !important;
 }
 .logo a {
-  color: white;
+  color: white !important;
 }
 .menu-control-container {
   display: none !important;
@@ -71,12 +71,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 1300px) {
-  .main {
-    /* margin-left: 50px; */
-  }
 }
 
 @media screen and (max-width: 1170px) {
