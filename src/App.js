@@ -37,8 +37,9 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            Cryptoverse <br />
-            All rights reserved
+            Cointracker &copy; All rights reserved
+            <br />
+            Made by Sahil Kandpal with ❤️
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
